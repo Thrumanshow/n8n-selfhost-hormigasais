@@ -5,6 +5,11 @@
 [![Wikipedia Usuario](https://img.shields.io/badge/Wikipedia-Perfil%20HormigasAIS-black?logo=wikipedia)](https://uk.wikipedia.org/wiki/Користувач:HormigasAIS)
 [![Repositorio base](https://img.shields.io/badge/GitHub-Laboratorio%20Open%20Lab-24292e?logo=github)](https://github.com/Thrumanshow/Mkdir-HormigasAIS-Open-Lab-/tree/main/.github)
 
+---
+
+## 📌 Objetivo
+Crear automatizaciones inteligentes con IA ligera, conectadas a Slack, GitHub y otras herramientas colaborativas, usando flujos autoalojados en n8n.
+
 Nodo de automatización autoalojado de HormigasAIS | Flujos inteligentes para un ecosistema humano
 
 🐜 ¿Qué es este nodo? 

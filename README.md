@@ -34,7 +34,9 @@ HormigasAIS, un ecosistema digital que impulsa la colaboración, automatización
 
 Este repositorio está en constante expansión. Si tenés ideas de flujos, mejoras o nodos personalizados:
 
-📩 Escribinos: hola@hormigasais.com 📌 Abrí un Issue 🍃 Forkealo y compartí tu flujo con el hormiguero 🪪 Licencia 
+📩 [![Email](https://img.shields.io/badge/email-chrisquionez354@gmail.com-007bff?style=flat-square&logo=gmail&logoColor=white)](mailto:chrisquionez354@gmail.com) 
+
+📌 Abrí un Issue 🍃 Forkealo y compartí tu flujo con el hormiguero 🪪 Licencia 
 
 MIT © HormigasAIS 2025
 Creado por Cristhiam Quiñonez con una mente curiosa y el corazón dispuesto.

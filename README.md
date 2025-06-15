@@ -54,6 +54,10 @@ Para más información o colaboración, puedes escribirnos a:
 
 ## 🌐 Parte del ecosistema
 
+[![Newsletter en LinkedIn](https://img.shields.io/badge/LinkedIn%20Newsletter-HormigasAIS-blue?logo=linkedin)](https://www.linkedin.com/newsletters/hormigasais-community-7307138608543490048)
+[![Slack Comunidad](https://img.shields.io/badge/Slack-Unirse%20a%20la%20comunidad-4A154B?logo=slack)](https://join.slack.com/t/hormigas-ais/shared_invite/zt-33zssiv5x-WXs1_8mQ6_9m0O9g0VNgAA)
+[![Correo oficial](https://img.shields.io/badge/Email-hormigasais@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:hormigasais@gmail.com)
+
 Este proyecto forma parte del 🧪 **Laboratorio Abierto HormigasAIS**  
 🧷 Parche fijado y listo para evolucionar.
 

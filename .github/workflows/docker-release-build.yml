@@ -1,5 +1,5 @@
 name: Docker Release Build
-
+4
 on:
   push:
     tags:
@@ -31,3 +31,4 @@ jobs:
           context: .
           push: true 
           tags: yourdockerhubuser/hormigasais-n8n:latest
+          

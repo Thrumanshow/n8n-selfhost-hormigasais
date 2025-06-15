@@ -29,3 +29,4 @@ jobs:
 
       - name: ✅ Confirmar que el build fue exitoso
         run: echo "🎉 Imagen Docker construida exitosamente (modo local sin push)"
+

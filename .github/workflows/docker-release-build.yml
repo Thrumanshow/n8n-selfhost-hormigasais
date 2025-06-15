@@ -28,5 +28,4 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/hormigasais-n8n:dev
 
       - name: ✅ Confirmar que el build fue exitoso
-        run: echo "🎉 Imagen Docker construida exitosamente (modo local sin push)"
-
+        run: echo "🎉 Imagen Docker construida y enviada correctamente a DockerHub"

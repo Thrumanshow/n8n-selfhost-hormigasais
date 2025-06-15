@@ -1,59 +1,60 @@
 # 🧠 n8n-selfhost-hormigasais
 
-[![HormigasAIS Open Lab](https://img.shields.io/badge/lab-HormigasAIS_🧪-007bff?style=flat-square)](https://github.com/HormigasAIS)
-[![Estado del proyecto](https://img.shields.io/badge/estado-En_Desarrollo-007bff?style=flat-square)](#)
-[![Email](https://img.shields.io/badge/email-chrisquionez354@gmail.com-007bff?style=flat-square&logo=gmail&logoColor=white)](mailto:chrisquionez354@gmail.com)
-[![Repositorio Base](https://img.shields.io/badge/base-n8n--io-007bff?style=flat-square)](https://github.com/n8n-io/n8n)
+Repositorio oficial del nodo autoalojado de n8n para el ecosistema **HormigasAIS**  
+[🔗 Laboratorio Abierto HormigasAIS](https://github.com/HormigasAIS) | [🌱 Repositorio base de n8n](https://github.com/n8n-io/n8n)
 
 ---
 
-### 🤖 ¿Qué es esto?
+## 🤖 ¿Qué es esto?
 
-Este es un parche inicial para autoalojar `n8n` en el ecosistema **HormigasAIS**, pensado como nodo de automatización modular, seguro y conectado al flujo colaborativo de herramientas como:
+Este es un parche inicial para autoalojar `n8n` dentro del ecosistema **HormigasAIS**, pensado como un nodo de automatización modular, seguro y conectado al flujo colaborativo con herramientas como:
 
 - **GitHub**
 - **Slack**
 - **Airtable**
 - **Notion**
-- Y más...
+- ¡Y más!
 
 ---
 
-### 🛠 ¿Qué incluye este repositorio?
+## 🛠 ¿Qué incluye este repositorio?
 
-- Dockerfile + configuración inicial (`docker-compose.yml`)
-- Hooks para conectar eventos desde GitHub
+- Archivo `Dockerfile` + configuración inicial (`docker-compose.yml`)
+- Workflows con ganchos para conectar eventos desde GitHub
 - Propuesta para flujos de automatización personalizados
 - Un entorno de pruebas accesible para desarrolladores de la comunidad
 
 ---
 
-### 🐜 ¿Por qué selfhost?
+## 🐜 ¿Por qué autoalojar?
 
-Porque queremos tener control y transparencia en cada flujo que se construye desde HormigasAIS. Este nodo permitirá pruebas, aprendizaje y despliegue de integraciones reales sin depender de terceros.
+Porque queremos tener **control** y **transparencia** en cada flujo que se construye desde HormigasAIS.  
+Este nodo permitirá:
 
----
-
-### 🔄 Conectividad actual
-
-- `Slack` ya integrado como hub de notificaciones
-- `GitHub` vinculado con flujos disparadores básicos
-- Preparación de tokens para `Atlassian`, `Trello` y `Airtable`
+- Probar integraciones
+- Aprender en comunidad
+- Desplegar soluciones reales, sin depender de terceros
 
 ---
 
-### 📬 Contacto directo
+## 🔄 Conectividad actual
 
-[![Email](https://img.shields.io/badge/email-chrisquionez354@gmail.com-007bff?style=flat-square&logo=gmail&logoColor=white)](mailto:chrisquionez354@gmail.com)
-
----
-
-### 🌐 Parte del ecosistema
-
-Este proyecto forma parte del 🧪 HormigasAIS Open Lab:
-
-> Inteligencia colaborativa para un futuro automatizado y humano.
+- ✅ `Slack`: integrado como hub de notificaciones
+- ✅ `GitHub`: vinculado con flujos disparadores básicos
+- ⚙️ Preparación de tokens para: `Atlassian`, `Trello`, `Airtable`
 
 ---
 
-**🧷 Parche fijado y listo para evolucionar.**
+## 📬 Contacto
+
+Para más información o colaboración, puedes escribirnos a:  
+📧 **hormigasais@gmail.com**
+
+---
+
+## 🌐 Parte del ecosistema
+
+Este proyecto forma parte del 🧪 **Laboratorio Abierto HormigasAIS**  
+🧷 Parche fijado y listo para evolucionar.
+
+> _Inteligencia colaborativa para un futuro automatizado y humano._

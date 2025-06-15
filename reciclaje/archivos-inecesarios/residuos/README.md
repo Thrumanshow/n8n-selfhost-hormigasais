@@ -1,20 +1,8 @@
-# 🚯 Archivos innecesarios para el sistema HormigasAIS
+# Archivos de soporte interno 🧹
 
-> ⚠️ Esta carpeta contiene archivos de configuración genéricos, sin datos sensibles.
+Esta carpeta contiene archivos reciclados que sirven como estructura base para entornos de prueba o entornos no prioritarios. No se recomienda modificar su contenido sin la validación del equipo de desarrollo.
 
-## ⚙️ Contenido
-
-- `.env.template`: plantilla de entorno para desarrolladores autorizados.
-- Requiere intervención del administrador para funcionar completamente.
-
-## 🚫 Importante
-
-Estos archivos no son funcionales por sí solos.
-Las claves de acceso y tokens **no se comparten públicamente**.
-
-Para más información, contactar a: `admin@hormigasais.dev` o enviar un pull request solicitando acceso al entorno controlado.
+> Algunos valores han sido omitidos por seguridad y deben ser completados manualmente por un miembro autorizado del repositorio. 
 
 ---
-
-HormigasAIS by Cristhiam Quiñonez 🐜✨  
-"La mente curiosa y la colaboración humana."
+**Atención:** Esta carpeta no afecta la funcionalidad principal del sistema.

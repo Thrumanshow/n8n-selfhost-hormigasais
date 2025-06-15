@@ -1,0 +1,114 @@
+{
+  "name": "XOXO Monitor | Render Health",
+  "nodes": [
+    {
+      "parameters": {
+        "interval": 60
+      },
+      "name": "Every 1h",
+      "type": "n8n-nodes-base.interval",
+      "typeVersion": 1,
+      "position": [
+        250,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "requestMethod": "GET",
+        "url": "https://xoxo-checker.onrender.com/healthz",
+        "jsonParameters": true,
+        "options": {},
+        "queryParametersJson": "{}"
+      },
+      "name": "Check Health",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 1,
+      "position": [
+        500,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{$json[\"statusCode\"]}}",
+              "operation": "notEqual",
+              "value2": 200
+            }
+          ]
+        }
+      },
+      "name": "If Not Healthy",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        750,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "none",
+        "url": "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK",
+        "requestMethod": "POST",
+        "jsonParameters": true,
+        "options": {},
+        "bodyParametersJson": "{\"text\": \"\\u26a0\\ufe0f XOXO detect\\u00f3 ca\\u00edda en el servidor n8n.\\nHora: {{ $now.toISOString() }}\\nEstado: {{$json[\\\"statusCode\\\"]}}\"}"
+      },
+      "name": "Send Slack Alert",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 1,
+      "position": [
+        1000,
+        200
+      ]
+    }
+  ],
+  "connections": {
+    "Every 1h": {
+      "main": [
+        [
+          {
+            "node": "Check Health",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Health": {
+      "main": [
+        [
+          {
+            "node": "If Not Healthy",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If Not Healthy": {
+      "main": [
+        [
+          {
+            "node": "Send Slack Alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionTimeout": 300
+  },
+  "tags": [
+    "MONITOREO",
+    "XOXO"
+  ]
+}

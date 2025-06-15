@@ -1,0 +1,3 @@
+*.py linguist-language=Python
+*.yml linguist-language=YAML
+Dockerfile linguist-language=Dockerfile

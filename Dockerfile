@@ -9,8 +9,8 @@ EXPOSE 5678
 
 # Variables opcionales: descoméntalas si necesitas autenticación
 # ENV N8N_BASIC_AUTH_ACTIVE=true
-# ENV N8N_BASIC_AUTH_USER=hormigas
-# ENV N8N_BASIC_AUTH_PASSWORD=seguro123
+N8N_BASIC_AUTH_USER=admin
+N8N_BASIC_AUTH_PASSWORD=admin123
 
 # Comando por defecto para iniciar n8n
 CMD ["n8n"]

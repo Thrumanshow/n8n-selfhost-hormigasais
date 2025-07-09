@@ -1,0 +1,19 @@
+{ "nodes": [ { "parameters": { "command": "f2 --search "TikTok_(\d+)" --replace "clip_$1" --target /data/tiktoks/", "workingDirectory": "/data/tiktoks/" }, "name": "Rename Files (f2)", "type": "n8n-nodes-base.executeCommand", "typeVersion": 1, "position": [200, 300] }, { "parameters": { "functionCode": "return [{ json: { message: "✅ Archivos renombrados correctamente por f2 en /data/tiktoks/" }}];" }, "name": "Set Message", "type": "n8n-nodes-base.function", "typeVersion": 1, "position": [400, 300] }, { "parameters": { "url": "https://discord.com/api/webhooks/XXXXXXXXX/YYYYYYYYY", "method": "POST", "jsonParameters": true, "options": {}, "bodyParametersJson": "{ "content": "={{ $json["message"] }}" }" }, "name": "Send to Discord", "type": "n8n-nodes-base.httpRequest", "typeVersion": 1, "position": [600, 300] } ], "connections": { "Rename Files (f2)": { "main": [["Set Message"]] }, "Set Message": { "main": [["Send to Dis
+bash
+  '''
+  # Clona el repo si no lo tenés
+git clone https://github.com/TU_USUARIO/n8n-selfhost-hormigasais.git
+cd n8n-selfhost-hormigasais
+
+# Crea la carpeta si no existe
+mkdir -p flows/branding-hormigasais
+
+# Copia o crea el archivo JSON
+nano flows/branding-hormigasais/n8n-flow-rename-f2-discord.json
+# (Pega el contenido del archivo y guarda con Ctrl+O y Ctrl+X)
+
+# Agrega y sube los cambios
+git add flows/branding-hormigasais/n8n-flow-rename-f2-discord.json
+git commit -m "feat: flujo de renombrado f2 + alerta Discord 🐜"
+git push origin main
+  '''

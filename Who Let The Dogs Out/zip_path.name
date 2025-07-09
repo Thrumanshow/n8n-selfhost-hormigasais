@@ -40,4 +40,3 @@ with ZipFile(zip_path, 'w') as zipf:
     for path in base_dir.rglob("*"):
         zipf.write(path, arcname=path.relative_to(base_dir))
 
-zip_path.name

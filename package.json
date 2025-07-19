@@ -1,0 +1,24 @@
+{
+  "name": "n8n-selfhost-hormigasais",
+  "version": "1.0.0",
+  "description": "Panel de automatización y compilación visual para n8n de HormigasAIS",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "keywords": [
+    "n8n",
+    "webpack",
+    "hormigasais",
+    "automatización",
+    "panel",
+    "selfhost"
+  ],
+  "author": "Cristhiam Quiñonez | HormigasAIS",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

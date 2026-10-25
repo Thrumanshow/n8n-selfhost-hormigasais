@@ -46,7 +46,7 @@ Este nodo permitirá:
 ---
 
 ### 📬 Contacto directo
-Podés escribirnos a nuestro correo oficial: [contacto](https://clhq.hormigasais.com)  
+Podés escribirnos a nuestro correo oficial: [contacto](https://clhq@hormigasais.com)  
 O sumarte a nuestra comunidad en Slack y LinkedIn:
 
 [![Newsletter en LinkedIn](https://www.linkedin.com/newsletters/the-colony-7505774868995465217)](https://www.linkedin.com/newsletters/hormigasais-community-7505774868995465217)
